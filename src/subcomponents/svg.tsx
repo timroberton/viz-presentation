@@ -33,8 +33,8 @@ export const SVG: React.FC<SVGProps> = (p) => {
         height: "100%",
         width: "100%",
         boxSizing: "border-box",
+        userSelect: "none",
       }}
-      className="select-none"
       onTap={() => {
         p.onInteractionEvent({ action: "clickOnSVG" });
       }}

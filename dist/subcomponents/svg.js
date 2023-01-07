@@ -13,7 +13,8 @@ export var SVG = function (p) {
             height: "100%",
             width: "100%",
             boxSizing: "border-box",
-        }, className: "select-none", onTap: function () {
+            userSelect: "none",
+        }, onTap: function () {
             p.onInteractionEvent({ action: "clickOnSVG" });
         } }, { children: _jsxs("g", __assign({ transform: "translate(0,0) scale(1)" }, { children: [_jsx("marker", __assign({ id: "line-marker", viewBox: "0 0 10 10", refX: "5", refY: "5", markerWidth: "3.5", markerHeight: "3.5" }, { children: _jsx("circle", { cx: "5", cy: "5", r: "5", fill: eptCol("gray", 700) }, void 0) }), "line-marker"), _jsx(motion.g
                 // style={p.upz.gStyle}
