@@ -43,7 +43,7 @@ export declare type PresentationModel4 = {
     dataSources: PresentationDataSource[];
     lines: PresentationLine[];
 };
-export interface PresentationNode {
+export declare type PresentationNode = {
     id: string;
     itemType: ItemType.Node;
     initialSequenceWeight: number;
@@ -57,16 +57,16 @@ export interface PresentationNode {
     subHeader: string;
     x: number;
     y: number;
-}
-export interface PresentationEdge {
+};
+export declare type PresentationEdge = {
     id: string;
     itemType: ItemType.Edge;
     fr: string;
     to: string;
     strokeWidthForArrowCrop: number;
     pathData?: string;
-}
-export interface PresentationTile {
+};
+export declare type PresentationTile = {
     id: string;
     itemType: ItemType.Tile;
     name: string;
@@ -79,7 +79,7 @@ export interface PresentationTile {
     x: number;
     y: number;
     initialFromLayer: number;
-}
+};
 export declare type PresentationIndicator = {
     id: string;
     itemType: ItemType.Indicator;
