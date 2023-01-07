@@ -1,0 +1,1 @@
+{"version":3,"file":"lines.d.ts","sourceRoot":"","sources":["../../src/subcomponents/lines.tsx"],"names":[],"mappings":"AAAA,OAAO,KAAK,MAAM,OAAO,CAAC;AAG1B,OAAO,EAAE,gBAAgB,EAAE,QAAQ,EAAE,MAAM,UAAU,CAAC;AAGtD,aAAK,UAAU,GAAG;IAChB,QAAQ,EAAE,QAAQ,CAAC;IACnB,KAAK,EAAE,gBAAgB,EAAE,CAAC;CAC3B,CAAC;AAEF,eAAO,MAAM,KAAK,EAAE,KAAK,CAAC,EAAE,CAAC,UAAU,CA8BtC,CAAC"}
