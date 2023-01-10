@@ -1,5 +1,4 @@
 import { eptCol } from "./colors";
-import { _MOTION_TRANSITION_FOR_PAN_ZOOM } from "./consts";
 import { Edges } from "./subcomponents/edges";
 import { Nodes } from "./subcomponents/nodes";
 import { SVG } from "./subcomponents/svg";

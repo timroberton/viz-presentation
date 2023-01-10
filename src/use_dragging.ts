@@ -225,14 +225,15 @@ export function useDragging(
       //   ups.attemptLinkIndicatorToDataSource(hitItem.id, isShiftDragging.id);
       // }
     }
-    // if (hitArea && isCtrlDragging) {
-    //   ups.attemptMoveNode(
-    //     isCtrlDragging.id,
-    //     hitArea.colIndex,
-    //     hitArea.newSeq,
-    //     hitArea.budgeType
-    //   );
-    // }
+    if (hitArea && isCtrlDragging) {
+      onInteractionEvent({
+        action: "moveNode",
+        nodeId: isCtrlDragging.id,
+        colIndex: hitArea.colIndex,
+        newSeq: hitArea.newSeq,
+        budgeType: hitArea.budgeType,
+      });
+    }
     setHitItem(null);
     setHitArea(null);
     setIsShiftDragging(null);

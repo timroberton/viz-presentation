@@ -176,6 +176,12 @@ export declare type InteractionEvent = {
     tileId: string;
     shiftKey: boolean;
 } | {
+    action: "moveNode";
+    nodeId: string;
+    colIndex: number;
+    newSeq: number;
+    budgeType: number;
+} | {
     action: "createEdge";
     fromId: string;
     toId: string;

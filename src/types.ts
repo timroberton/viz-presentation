@@ -202,4 +202,11 @@ export type InteractionEvent =
   | { action: "clickOnNode"; nodeId: string; shiftKey: boolean }
   | { action: "clickOnEdge"; edgeId: string; shiftKey: boolean }
   | { action: "clickOnTile"; tileId: string; shiftKey: boolean }
+  | {
+      action: "moveNode";
+      nodeId: string;
+      colIndex: number;
+      newSeq: number;
+      budgeType: number;
+    }
   | { action: "createEdge"; fromId: string; toId: string };
